@@ -12,15 +12,14 @@ class A {
     @Autowired
     @Qualifier("2")
     private B myB2;
-
-    void callPrint(){
+    void callPrint() {
         myB.print();
     }
 
-    void callPrint(int i){
-        if (i == 1){
+    void callPrint(int i) {
+        if (i == 1) {
             myB.print();
-        }else {
+        } else {
             myB2.print();
         }
 
