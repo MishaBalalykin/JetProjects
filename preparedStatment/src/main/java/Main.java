@@ -12,30 +12,37 @@ public class Main {
 
     public static void main(String[] args) {
         Connection connection;
-        PreparedStatement preparedStatement = null;
-        final String INSERT_INTO = "INSERT INTO dish VALUES(?,?,?,?,?,?,?);";
+        PreparedStatement preparedStatement;
+        //final String INSERT_INTO = "INSERT INTO dish VALUES(?,?,?,?,?,?,?);";
         final String GET_ALL = "SELECT * FROM dish;";
-        final String DELETE = "DELETE FROM dish where id = ?;";
+        //final String DELETE = "DELETE FROM dish where id = ?;";
         try {
             Driver driver = new FabricMySQLDriver();
             DriverManager.registerDriver(driver);
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
 
-            preparedStatement = connection.prepareStatement(DELETE);
+
+            /*preparedStatement = connection.prepareStatement(DELETE);
             preparedStatement.setInt(1,1);
-            preparedStatement.execute();
-            //preparedStatement = connection.prepareStatement(GET_ALL);
-            /*
-            preparedStatement = connection.prepareStatement(INSERT_INTO);
+            preparedStatement.execute();*/
+
+            preparedStatement = connection.prepareStatement(GET_ALL);
+
+            /*preparedStatement = connection.prepareStatement(INSERT_INTO);
             preparedStatement.setInt(1, 1);
             preparedStatement.setString(2, "title");
             preparedStatement.setString(3, "description");
             preparedStatement.setFloat(4, 0.2f);
             preparedStatement.setBoolean(5, true);
             preparedStatement.setDate(6, new Date(Calendar.getInstance().getTimeInMillis()));
-            preparedStatement.setBlob(7, new FileInputStream("smile.png"));*/
+            preparedStatement.setBlob(7, new FileInputStream("smile.png"));
+            preparedStatement.execute();*/
             //////////////////////////////////////
-            /*ResultSet resultSet = preparedStatement.executeQuery();
+            ResultSet resultSet = preparedStatement.executeQuery();
+            //
+            //
+            //
+            //
             while (resultSet.next()){
                 int id = resultSet.getInt("id");
                 String title = resultSet.getString("title");
@@ -43,7 +50,7 @@ public class Main {
                 float rating = resultSet.getFloat("rating");
                 boolean published = resultSet.getBoolean("published");
                 Date date = resultSet.getDate("created");
-                byte[] icon = resultSet.getBytes("icon");//TODO почему не работает с icon
+                byte[] icon = resultSet.getBytes("icon");
 
                 System.out.println("id = " + id);
                 System.out.println("title = " + title);
@@ -53,8 +60,8 @@ public class Main {
                 System.out.println("date = " + date);
                 System.out.println("icon = " + icon.length);
 
-            }*/
-        } catch (SQLException/* | FileNotFoundException*/ e) {
+            }
+        } catch (SQLException /*| FileNotFoundException*/ e) {
             e.printStackTrace();
         }
     }
