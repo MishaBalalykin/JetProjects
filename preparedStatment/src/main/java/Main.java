@@ -39,10 +39,6 @@ public class Main {
             preparedStatement.execute();*/
             //////////////////////////////////////
             ResultSet resultSet = preparedStatement.executeQuery();
-            //
-            //
-            //
-            //
             while (resultSet.next()){
                 int id = resultSet.getInt("id");
                 String title = resultSet.getString("title");
