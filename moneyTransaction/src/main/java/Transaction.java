@@ -1,21 +1,19 @@
 import account.Account;
-import exceptions.NotEnouthMoneyException;
+import exceptions.NotEnoughMoneyException;
 import storage.DataStorage;
 import storage.MapStorage;
 
 import java.math.BigDecimal;
-import java.util.Map;
 
-class Transaction {
+public class Transaction {
     private BigDecimal oldStateAccount;
     private BigDecimal oldStateToAccount;
-    private Map<Integer, BigDecimal> accountNumberAndAmountOfMoney =
-            MapStorage.getInstance().getAccountNumberAndAmountOfMoney();
 
-    boolean transferMoney(Account account, Account toAccount, BigDecimal money) throws NotEnouthMoneyException {
+    public boolean transferMoney(Account account, Account toAccount, BigDecimal money) throws NotEnoughMoneyException {
+        if (money.compareTo(new BigDecimal(0)) <=0 ) return false;
         initializeStateOfAccounts(account, toAccount);
         if (account.getMoney().compareTo(money) < 0) {
-            throw new NotEnouthMoneyException();
+            throw new NotEnoughMoneyException();
         } else {
             transfer(account, toAccount, money);
             return checkTransactionAndSetOldStateIfTransactionFale(account, toAccount, money);
@@ -29,17 +27,11 @@ class Transaction {
 
     private void transfer(Account account, Account toAccount, BigDecimal money) {
         DataStorage mapStorage = MapStorage.getInstance();
-        mapStorage.writeOfMoney(account, account.getAccountNumber(), money);
-        mapStorage.enrollMoney(toAccount, toAccount.getAccountNumber(), money);
+        mapStorage.writeOfMoney(account, money);
+        mapStorage.enrollMoney(toAccount, money);
     }
 
     private boolean checkTransactionAndSetOldStateIfTransactionFale(Account account, Account toAccount, BigDecimal money) {
-        System.out.println("account = " + account.getMoney());
-        System.out.println("oldStateAccount = " + oldStateAccount.subtract(money));
-        System.out.println();
-        System.out.println("toAccount = " + toAccount.getMoney());
-        System.out.println("oldStateToAccount = " + oldStateToAccount.add(money));
-
         if (toAccount.getMoney().compareTo(oldStateToAccount.add(money)) == 0 &&
                 account.getMoney().compareTo(oldStateAccount.subtract(money)) == 0) {
             return true;

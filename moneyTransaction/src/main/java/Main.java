@@ -1,5 +1,5 @@
 import account.Account;
-import exceptions.NotEnouthMoneyException;
+import exceptions.NotEnoughMoneyException;
 
 import java.math.BigDecimal;
 
@@ -9,18 +9,17 @@ public class Main {
         Account account = new Account(1, new BigDecimal(1200.15));
         Account toAccount = new Account(2, new BigDecimal(999.9));
 
-        System.out.println(account.getMoney());
-        System.out.println(toAccount.getMoney());
-        System.out.println();
+        System.out.println("Денег на первом аккаунте: "+account.getMoney());
+        System.out.println("Денег на втором аккаунте: "+toAccount.getMoney());
+        System.out.println("Транзакция");
 
         try {
-            transaction.transferMoney(account, toAccount, new BigDecimal(1300));
-        } catch (NotEnouthMoneyException e) {
+            transaction.transferMoney(account, toAccount, new BigDecimal(-5));
+        } catch (NotEnoughMoneyException e) {
             System.out.println("Недостаточно средств для перевода");
         }
 
-        System.out.println();
-        System.out.println(account.getMoney());
-        System.out.println(toAccount.getMoney());
+        System.out.println("Денег на первом аккаунте: "+account.getMoney());
+        System.out.println("Денег на втором аккаунте: "+toAccount.getMoney());
     }
 }

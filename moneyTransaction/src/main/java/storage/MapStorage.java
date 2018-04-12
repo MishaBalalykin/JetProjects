@@ -4,15 +4,17 @@ import account.Account;
 import exceptions.AccountNumberException;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.HashMap;
 import java.util.Map;
 
 public class MapStorage implements DataStorage {
     private static MapStorage instance;
-    private Map<Integer, BigDecimal> accountNumberAndAmountOfMoney;
+    private Map<Integer, Account> accountAndAmountOfMoney;
 
+    //region Singleton
     private MapStorage() {
-        accountNumberAndAmountOfMoney = new HashMap<>();
+        accountAndAmountOfMoney = new HashMap<>();
     }
 
     public static MapStorage getInstance() {
@@ -22,34 +24,33 @@ public class MapStorage implements DataStorage {
         return instance;
     }
 
+    //endregion
+
     @Override
-    public boolean enrollMoney(Account account, int accountNumber, BigDecimal money) {
-        //System.out.println("accountNumberAndAmountOfMoney = " + accountNumberAndAmountOfMoney.get(accountNumber));
-        accountNumberAndAmountOfMoney.put(accountNumber, accountNumberAndAmountOfMoney.get(accountNumber).add(money));
-        //System.out.println("accountNumberAndAmountOfMoney = " + accountNumberAndAmountOfMoney.get(accountNumber));
-        account.setMoney(account.getMoney().add(money));
+    public boolean writeOfMoney(Account account, BigDecimal money) {
+        account.setMoney(account.getMoney().subtract(money));
+        accountAndAmountOfMoney.put(account.getAccountNumber(), account);
         return true;
     }
 
     @Override
-    public boolean writeOfMoney(Account account, int accountNumber, BigDecimal money) {
-        //System.out.println("WRITEOFaccountNumberAndAmountOfMoney = " + accountNumberAndAmountOfMoney.get(accountNumber));
-        accountNumberAndAmountOfMoney.put(accountNumber, accountNumberAndAmountOfMoney.get(accountNumber).subtract(money));
-        account.setMoney(account.getMoney().subtract(money));
-        //System.out.println("WRITEOFaccountNumberAndAmountOfMoney = " + accountNumberAndAmountOfMoney.get(accountNumber));
+    public boolean enrollMoney(Account account, BigDecimal money) {
+        account.setMoney(account.getMoney().add(money).setScale(2, RoundingMode.HALF_UP));
+        accountAndAmountOfMoney.put(account.getAccountNumber(), account);
         return true;
     }
 
     //region Getters andSetters
-    public Map<Integer, BigDecimal> getAccountNumberAndAmountOfMoney() {
-        return accountNumberAndAmountOfMoney;
+
+    public Map<Integer, Account> getAccountAndAmountOfMoney() {
+        return accountAndAmountOfMoney;
     }
 
-    public void setAccountNumberAndAmountOfMoney(int accountNumber, BigDecimal money) throws AccountNumberException {
-        if (this.accountNumberAndAmountOfMoney.containsKey(accountNumber)){
+    public void setAccountAndAmountOfMoney(Account account) throws AccountNumberException {
+        if (accountAndAmountOfMoney.containsKey(account.getAccountNumber())) {
             throw new AccountNumberException();
-        }
-        this.accountNumberAndAmountOfMoney.put(accountNumber, money);
+        } else accountAndAmountOfMoney.put(account.getAccountNumber(), account);
     }
-//endregion
+
+    //endregion
 }

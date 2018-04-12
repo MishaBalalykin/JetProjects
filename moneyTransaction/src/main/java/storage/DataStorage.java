@@ -6,6 +6,6 @@ import java.math.BigDecimal;
 
 
 public interface DataStorage {
-    boolean enrollMoney(Account account, int accountNumber, BigDecimal money);
-    boolean writeOfMoney(Account account, int accountNumber, BigDecimal money);
+    boolean enrollMoney(Account account, BigDecimal money);
+    boolean writeOfMoney(Account account,  BigDecimal money);
 }
