@@ -1,7 +1,9 @@
-import account.Account;
-import exceptions.NotEnoughMoneyException;
-import storage.DataStorage;
-import storage.MapStorage;
+package config;
+
+import config.account.Account;
+import config.exceptions.NotEnoughMoneyException;
+import config.storage.DataStorage;
+import config.storage.MapStorage;
 
 import java.math.BigDecimal;
 

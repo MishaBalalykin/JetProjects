@@ -1,5 +1,7 @@
-import account.Account;
-import exceptions.NotEnoughMoneyException;
+package config;
+
+import config.account.Account;
+import config.exceptions.NotEnoughMoneyException;
 
 import java.math.BigDecimal;
 

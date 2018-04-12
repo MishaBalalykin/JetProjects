@@ -1,9 +1,7 @@
-import account.Account;
-import exceptions.NotEnoughMoneyException;
-import org.junit.Assert;
+import config.Transaction;
+import config.account.Account;
+import config.exceptions.NotEnoughMoneyException;
 import org.junit.Test;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.math.BigDecimal;
 

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b17a9a7-1174-411a-8534-a2a870f792ec" name="Default" comment="">
+    <list default="true" id="5b17a9a7-1174-411a-8534-a2a870f792ec" name="Default" comment="Transaction with save in map">
       <change afterPath="$PROJECT_DIR$/../databaseExam/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../databaseExam/target/classes/database/exam/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../databaseResultSet/.idea/dataSources/e7c962c8-8591-4948-a5f9-2af93b6ca9f6.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../databaseResultSet/target/classes/database/resultSet/DBWorker.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../databaseResultSet/target/classes/database/resultSet/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../databaseResultSet/target/classes/database/resultSet/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/SpringConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../parking/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../perking/src/test/java/ParkingTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../preparedStatment/Новый текстовый документ.txt" afterDir="false" />
@@ -45,17 +44,19 @@
       <change afterPath="$PROJECT_DIR$/../testJDBC" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/NotEnouthMoneyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/NotEnoughMoneyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/storage/DataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/storage/DataStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/storage/MapStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/storage/MapStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/AccountNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/exceptions/AccountNumberException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/NotEnoughMoneyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/exceptions/NotEnoughMoneyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/storage/DataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/storage/DataStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/storage/MapStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/storage/MapStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TransactionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TransactionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Transaction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/account/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exceptions/NotEnouthMoneyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exceptions/AccountNumberException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exceptions/AccountNumberException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/storage/DataStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/storage/DataStorage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/storage/MapStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/storage/MapStorage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TransactionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TransactionTest.class" afterDir="false" />
@@ -84,10 +85,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/config/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-188">
-              <caret line="12" column="66" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="66" />
+            <state relative-caret-position="109">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,33 +96,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransactionTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTest.java">
+      <file leaf-file-name="SpringConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/config/SpringConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="208">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="TransactionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="NotEnoughMoneyException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/NotEnoughMoneyException.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/config/exceptions/NotEnoughMoneyException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MapStorage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/storage/MapStorage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/config/storage/MapStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
+            <state relative-caret-position="170">
               <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,20 +143,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataStorage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/storage/DataStorage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AccountNumberException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/AccountNumberException.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/config/exceptions/AccountNumberException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
@@ -157,10 +153,10 @@
         </entry>
       </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/config/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="109">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,16 +168,16 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/account/Account.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/config/account/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+            <state relative-caret-position="191">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#135#136#0" expanded="true" />
@@ -205,9 +201,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -236,11 +232,14 @@
         <option value="$PROJECT_DIR$/src/main/java/storage/MapStorage.java" />
         <option value="$PROJECT_DIR$/src/main/java/exceptions/NotEnouthMoneyException.java" />
         <option value="$PROJECT_DIR$/src/main/java/exceptions/NotEnoughMoneyException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/account/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Transaction.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/account/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TransactionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/config/account/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/config/SpringConfig.java" />
       </list>
     </option>
   </component>
@@ -317,7 +316,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moneyTransaction" type="b2602c69:ProjectViewProjectNode" />
@@ -325,14 +324,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moneyTransaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moneyTransaction" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moneyTransaction" type="b2602c69:ProjectViewProjectNode" />
@@ -397,7 +390,7 @@
   </component>
   <component name="RunManager" selected="JUnit.TransactionTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="config.account.Main" />
       <module name="moneyTransaction" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -499,7 +492,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523520113542</updated>
-      <workItem from="1523520116007" duration="26043000" />
+      <workItem from="1523520116007" duration="28234000" />
     </task>
     <task id="LOCAL-00001" summary="Transaction with save in map">
       <created>1523544793450</created>
@@ -508,13 +501,17 @@
       <option name="project" value="LOCAL" />
       <updated>1523544793450</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Not multythread transaction with save in map and test">
+      <created>1523553896361</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1523553896361</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TransactionTest_transferMoney - 2018.04.12 at 19h 40m 02s.xml">
-      <configuration name="TransactionTest.transferMoney" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TransactionTest_transferMoney - 2018.04.12 at 19h 41m 18s.xml">
       <configuration name="TransactionTest.transferMoney" configurationId="JUnit" />
     </history-entry>
@@ -542,9 +539,12 @@
     <history-entry file="TransactionTest - 2018.04.12 at 19h 58m 57s.xml">
       <configuration name="TransactionTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TransactionTest - 2018.04.12 at 20h 34m 29s.xml">
+      <configuration name="TransactionTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26043000" />
+    <option name="totallyTimeSpent" value="28234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -559,15 +559,15 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32955465" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.069767445" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.51699466" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3291592" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3291592" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24291497" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.3291592" />
+      <window_info anchor="bottom" id="Find" order="6" visible="true" weight="0.3291592" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
@@ -614,12 +614,39 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Transaction with save in map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transaction with save in map" />
+    <MESSAGE value="Not multythread transaction with save in map and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Not multythread transaction with save in map and test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -711,21 +738,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/AccountNumberException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/NotEnoughMoneyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/storage/DataStorage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/storage/DataStorage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
@@ -735,20 +748,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="66" />
+        <state relative-caret-position="408">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/exceptions/AccountNumberException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/exceptions/NotEnoughMoneyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/storage/MapStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#MapStorage#0;n#MapStorage#0" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/account/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        <state relative-caret-position="109">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/account/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#135#136#0" expanded="true" />
@@ -765,45 +845,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/storage/MapStorage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/SpringConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#MapStorage#0;n#MapStorage#0" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="208">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
         </state>
       </provider>
     </entry>

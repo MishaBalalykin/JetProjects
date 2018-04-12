@@ -1,6 +1,6 @@
-package storage;
+package config.storage;
 
-import account.Account;
+import config.account.Account;
 
 import java.math.BigDecimal;
 

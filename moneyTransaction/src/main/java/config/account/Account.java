@@ -1,7 +1,7 @@
-package account;
+package config.account;
 
-import exceptions.AccountNumberException;
-import storage.MapStorage;
+import config.exceptions.AccountNumberException;
+import config.storage.MapStorage;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -12,6 +12,7 @@ public class Account {
     private int accountNumber;
 
     //region Constructors
+    public Account(){}
 
     public Account(int accountNumber, BigDecimal money) {
         this.money = money;

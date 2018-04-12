@@ -1,7 +1,7 @@
-package storage;
+package config.storage;
 
-import account.Account;
-import exceptions.AccountNumberException;
+import config.account.Account;
+import config.exceptions.AccountNumberException;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
