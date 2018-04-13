@@ -5,7 +5,6 @@ import config.exceptions.NotEnoughMoneyException;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
 import java.math.BigDecimal;
 
 import static org.junit.Assert.*;

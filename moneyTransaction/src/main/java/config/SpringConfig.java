@@ -9,17 +9,15 @@ import java.math.BigDecimal;
 
 @Component // инициализ бина происходит javой, не кэшир, configurate кэширует
 @ComponentScan(basePackages = "config") //где поискать
-
-
 public class SpringConfig {
-    @Bean(name = "1")
+    @Bean(name = "first acc")
     public Account getAccount(){
         Account account = new Account();
         account.setAccountNumber(1);
         account.setMoney(new BigDecimal(1200.15));
         return account;
     }
-    @Bean(name = "2")
+    @Bean(name = "second acc")
     public Account getAnotherAccount(){
         Account account = new Account();
         account.setAccountNumber(2);

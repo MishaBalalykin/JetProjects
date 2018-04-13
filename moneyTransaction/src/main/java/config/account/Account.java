@@ -13,7 +13,6 @@ public class Account {
 
     //region Constructors
     public Account(){}
-
     public Account(int accountNumber, BigDecimal money) {
         this.money = money;
         this.accountNumber = accountNumber;

@@ -1,4 +1,3 @@
 package config.exceptions;
 
-public class NotEnoughMoneyException extends Exception {
-}
+public class NotEnoughMoneyException extends Exception {}

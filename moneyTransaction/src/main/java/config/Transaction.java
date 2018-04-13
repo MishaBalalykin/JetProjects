@@ -4,9 +4,11 @@ import config.account.Account;
 import config.exceptions.NotEnoughMoneyException;
 import config.storage.DataStorage;
 import config.storage.MapStorage;
+import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 
+@Component
 public class Transaction {
     private BigDecimal oldStateAccount;
     private BigDecimal oldStateToAccount;

@@ -1,5 +1,3 @@
 package config.exceptions;
 
-public class AccountNumberException extends Exception {
-
-}
+public class AccountNumberException extends Exception {}
