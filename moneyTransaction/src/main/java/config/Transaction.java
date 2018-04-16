@@ -14,7 +14,7 @@ public class Transaction {
     private BigDecimal oldStateToAccount;
 
     public boolean transferMoney(Account account, Account toAccount, BigDecimal money) throws NotEnoughMoneyException {
-        if (money.compareTo(new BigDecimal(0)) <=0 ) return false;
+        if (money.compareTo(new BigDecimal(0)) <= 0) return false;
         initializeStateOfAccounts(account, toAccount);
         if (account.getMoney().compareTo(money) < 0) {
             throw new NotEnoughMoneyException();

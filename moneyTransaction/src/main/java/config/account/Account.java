@@ -1,28 +1,29 @@
 package config.account;
 
 import config.exceptions.AccountNumberException;
+import config.storage.DataStorage;
 import config.storage.MapStorage;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Objects;
 
+
 public class Account {
     private BigDecimal money;
     private int accountNumber;
-
     //region Constructors
-    public Account(){}
+
     public Account(int accountNumber, BigDecimal money) {
         this.money = money;
         this.accountNumber = accountNumber;
         try {
-            MapStorage.getInstance().setAccountAndAmountOfMoney(this);
+            DataStorage mapStorage = MapStorage.getInstance();
+            ((MapStorage) mapStorage).setAccountAndAmountOfMoney(this);
         }catch (AccountNumberException e){
             System.err.println("Such accountNumber already exists");
         }
     }
-
 
     //endregion
 
@@ -57,8 +58,10 @@ public class Account {
 
     @Override
     public int hashCode() {
+
         return Objects.hash(money, accountNumber);
     }
+
 
     //endregion
 }
