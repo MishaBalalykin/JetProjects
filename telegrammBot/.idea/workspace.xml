@@ -37,10 +37,6 @@
       <change afterPath="$PROJECT_DIR$/../spring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../stack/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kurs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/MessageCreator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/URLGenerator.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/src/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/src/.idea/modules.xml" afterDir="false" />
@@ -71,10 +67,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DataValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MessageCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MessageCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/URLGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/URLGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Bot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Parser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Parser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Parser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tetsService/servicetst/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tetsService/servicetst/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tetsService/servicetst/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tetsService/servicetst/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tetsService/servicetst/src/main/java/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tetsService/servicetst/src/main/java/Parser.java" afterDir="false" />
@@ -103,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bot.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Bot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="31" column="46" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="76" />
+            <state relative-caret-position="257">
+              <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1296#1328#0" expanded="true" />
@@ -119,8 +116,8 @@
       <file leaf-file-name="MessageCreator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MessageCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,8 +137,8 @@
       <file leaf-file-name="DataValidator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DataValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="92">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,11 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="274">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -344,7 +341,7 @@
       <option name="presentableId" value="Default" />
       <updated>1524148312730</updated>
       <workItem from="1524148314158" duration="3605000" />
-      <workItem from="1524209218015" duration="22893000" />
+      <workItem from="1524209218015" duration="23642000" />
     </task>
     <task id="LOCAL-00001" summary="simple Telegramm bot">
       <created>1524153247815</created>
@@ -360,11 +357,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524226098167</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="simple Telegramm bot 0.2">
+      <created>1524236114790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524236114790</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26498000" />
+    <option name="totallyTimeSpent" value="27247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -469,7 +473,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simple Telegramm bot" />
     <MESSAGE value="simple Telegramm bot 0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple Telegramm bot 0.1" />
+    <MESSAGE value="simple Telegramm bot 0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple Telegramm bot 0.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -576,8 +581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MessageCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -586,18 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DataValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="92">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -606,11 +601,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Bot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="31" column="46" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="76" />
+        <state relative-caret-position="257">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1296#1328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

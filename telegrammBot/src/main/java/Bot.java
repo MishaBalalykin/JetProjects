@@ -29,17 +29,18 @@ public class Bot extends TelegramLongPollingBot {
         String txt = msg.getText();
         Parser parser = new Parser();
         MessageCreator messageCreator = new MessageCreator();
+        String txtCopy = txt;
         if (txt.equalsIgnoreCase("/start")) {
             sendMsg(msg, "Hi, i'm valuta bot! Please look at list of my comand"+System.lineSeparator()+
-                    "If you want to get exchange rates for chosen date send date in format \"XX.XX.XXXX\"");
+                    "If you want to get exchange rates for chosen date send date in format \"/valuta/XX.XX.XXXX\"");
 
         }
         else if (txt.equalsIgnoreCase("/nextPresidentOfRussia")){
             sendMsg(msg, "Vladimir Vladimirovich Putin");
         }
-        else {
+        else if (parser.parse(txtCopy).equalsIgnoreCase("valuta")){
             sendMsg(msg, messageCreator.getMessage(txt, parser));
-        }
+        }else sendMsg(msg, "I don't know such command");
     }
 
     @Override
