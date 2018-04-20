@@ -13,6 +13,11 @@ class Parser {
         String[] parsedCommand = txt.split("\\D+");
         return parsedCommand;
     }
+    /*String parse(String txt){
+        String result = "";
+        String[] parsedCommand = txt.split("\\W+");
+        return parsedCommand[1];
+    }*/
 
     String getParsedText() throws ParserConfigurationException, SAXException, IOException {
         SAXParserFactory factory = SAXParserFactory.newInstance();
