@@ -26,10 +26,15 @@ public class Bot extends TelegramLongPollingBot {
     public void onUpdateReceived(Update e) {
         Message msg = e.getMessage(); // Это нам понадобится
         String txt = msg.getText();
-        if (txt.equals("/getExchange")) {
+        Parser parser = new Parser();
 
-            sendMsg(msg, "Hello, world! This is simple bot!");
+        MessageCreator messageCreator = new MessageCreator();
+
+
+        if (txt.equals("/start")) {
+            sendMsg(msg, "Hi, i'm valuta bot! Please send date in format \"XX.XX.XXXX\" to get exchange rates for chosen date.");
         }
+            sendMsg(msg, messageCreator.getMessage(txt, parser));
     }
 
     @Override

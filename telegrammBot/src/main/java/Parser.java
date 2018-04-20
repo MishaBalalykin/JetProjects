@@ -8,7 +8,13 @@ import javax.xml.parsers.SAXParserFactory;
 import java.io.IOException;
 
 class Parser {
-    void getParsedText() throws ParserConfigurationException, SAXException, IOException {
+    String answer = "";
+    String[] parseCommand(String txt){
+        String[] parsedCommand = txt.split("\\D+");
+        return parsedCommand;
+    }
+
+    String getParsedText() throws ParserConfigurationException, SAXException, IOException {
         SAXParserFactory factory = SAXParserFactory.newInstance();
         SAXParser parser = factory.newSAXParser();
         final String fileName = "kurs.xml";
@@ -22,9 +28,13 @@ class Parser {
             @Override
             public void startElement(String uri, String localName, String qName, Attributes attributes) {
                 if (qName.equals("ValCurs")) {
-                    System.out.println();
-                    System.out.println("���������� �� ������: " + attributes.getValue("Date"));
-                    System.out.println();
+                    //System.out.println();
+                    //System.out.println("���������� �� ������: " + attributes.getValue("Date"));
+                    //System.out.println();
+
+                    answer +="Курс на дату: ";
+                    answer +=attributes.getValue("Date");
+                    answer+=System.lineSeparator();
                     data = true;
                 }
                 if (qName.equals("Name")) {//���� ��� � ������ Name, �� ������ ����
@@ -40,17 +50,20 @@ class Parser {
             public void characters(char ch[], int start, int length) {
                 // ���� ����� ���� �� ��������, ��� ��� ���� Name - ������ ��� ���� ����� ������������.
                 if (name) {
-                    System.out.print(new String(ch, start, length) + " ");
+                    answer+=new String(ch, start, length) + " ";
+                    //answer+=System.lineSeparator();
+                    //System.out.print(new String(ch, start, length) + " ");
                     name = false;
                 }
                 if (value) {
-                    System.out.println(new String(ch, start, length));
+                    answer +=new String(ch, start, length);
+                    answer+= System.lineSeparator();
+                    //System.out.println(new String(ch, start, length));
                     value = false;
                 }
             }
         };
         parser.parse(fileName, handler);
+        return answer;
     }
 }
-
-
