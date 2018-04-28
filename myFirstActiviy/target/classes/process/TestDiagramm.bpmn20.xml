@@ -24,7 +24,7 @@
         <sequenceFlow id="flow4" sourceRef="exclusivegateway1" targetRef="servicetask2">
             <conditionExpression xsi:type="tFormalExpression"><![CDATA[${a == 1}]]></conditionExpression>
         </sequenceFlow>
-        <serviceTask id="servicetask3" name="misha.Initialaizer" activiti:class="misha.Initialaizer"></serviceTask>
+        <serviceTask id="servicetask3" name="Initialaizer" activiti:class="com.jet.edu.InnerAPI.Initialaizer"></serviceTask>
         <sequenceFlow id="flow5" sourceRef="servicetask3" targetRef="exclusivegateway1"></sequenceFlow>
         <exclusiveGateway id="exclusivegateway2" name="Exclusive Gateway"></exclusiveGateway>
         <sequenceFlow id="flow6" sourceRef="servicetask2" targetRef="exclusivegateway2"></sequenceFlow>
