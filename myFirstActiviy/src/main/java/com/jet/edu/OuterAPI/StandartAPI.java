@@ -1,7 +1,8 @@
 package com.jet.edu.OuterAPI;
 
-import com.jet.edu.OuterAPI.OuterAPI;
 import org.activiti.engine.RuntimeService;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
