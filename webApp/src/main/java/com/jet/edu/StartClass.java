@@ -1,5 +1,11 @@
 package com.jet.edu;
 
+import com.jet.edu.OuterAPI.OuterAPI;
+import com.jet.edu.OuterAPI.StandartAPI;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -8,9 +14,15 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet(urlPatterns = "/start")
+
 public class StartClass extends HttpServlet {
     String name;
-    //String[] args = new String[10];
+
+    //@Autowired
+    OuterAPI start = new StandartAPI();
+
+    /*ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+    OuterAPI start = (OuterAPI) context.getBean("api");*/
 
 
     @Override
@@ -31,12 +43,14 @@ public class StartClass extends HttpServlet {
         name = req.getParameter("startBPM");
         System.out.println("name " + name);
         if (name.equalsIgnoreCase("start")) {
-            /*Main main = new Main();
-            main.start();*/
+            System.out.println("aaaa");
+            start.start();
             System.out.println("i'm hear");
-            Runtime.getRuntime().exec("java -jar myFirstActiviy.jar");
+            //Runtime.getRuntime().exec("java -jar myFirstActiviy.jar");
             System.out.println("i'm steel hear");
         } else System.out.println("error");
 
+        /*mvn install:install-file -Dfile=<C:\Users\mr.balalykin\Downloads\Repo\JetProjects\myFirstActiviy\out\artifacts\myFirstActiviy_jar> -DgroupId=<com.jet.edu> \ -DartifactId=<myFirstActiviy> -Dversion=<1.0-SNAPSHOT> -Dpackaging=jar*/
+        /*mvn install:install-file -Dfile=C:\Users\mr.balalykin\Downloads\Repo\JetProjects\myFirstActiviy\out\artifacts\myFirstActiviy_jar\myFirstActiviy.jar -DpomFile=C:\Users\mr.balalykin\Downloads\Repo\JetProjects\myFirstActiviy\pom.xml*/
     }
 }
