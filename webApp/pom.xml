@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jet.edu</groupId>
+    <groupId>com.jet.web</groupId>
     <artifactId>webApp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
@@ -17,6 +17,11 @@
 
     
     <dependencies>
+        <dependency>
+            <groupId>com.jet.edu</groupId>
+            <artifactId>myFirstActiviy</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
@@ -68,6 +73,16 @@
             <groupId>org.activiti</groupId>
             <artifactId>activiti-engine</artifactId>
             <version>5.14</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jet.edu</groupId>
+            <artifactId>myFirstActiviy</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jet.edu</groupId>
+            <artifactId>myFirstActiviy</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.jet.edu</groupId>
