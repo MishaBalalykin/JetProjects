@@ -44,43 +44,6 @@
       <change afterPath="$PROJECT_DIR$/../test/src/main/main.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/target/test-classes/TestGetSingleton.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../testJDBC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jet/web/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/jet/web/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/jet/web/StartClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/classes/com/jet/web/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/classes/com/jet/web/StartClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/classes/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/activiti-bpmn-converter-5.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/activiti-bpmn-model-5.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/activiti-engine-5.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/activiti-spring-5.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/commons-email-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/h2-1.2.132.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.9.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/joda-time-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/mail-1.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/myFirstActiviy-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-3.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-3.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-3.1.2.RELEASE.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Json/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Json/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RestFull/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestFull/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RestFull/src/main/java/hello/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RestFull/src/main/java/hello/GreetingController.java" afterDir="false" />
@@ -99,8 +62,6 @@
       <change beforePath="$PROJECT_DIR$/../moneyTransaction/target/classes/config/storage/MapStorage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../moneyTransaction/target/test-classes/TransactionTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../multythreadDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../multythreadDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myFirstActiviy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstActiviy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/OuterAPI/StandartAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/OuterAPI/StandartAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../parking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parking/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../perking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../perking/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../perking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../perking/pom.xml" afterDir="false" />
@@ -124,14 +85,14 @@
       <change beforePath="$PROJECT_DIR$/../tetsService/servicetst/target/classes/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tetsService/servicetst/target/classes/Parser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tetsService/servicetst/target/classes/ServiceRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tetsService/servicetst/target/classes/ServiceRequest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jet/edu/StartClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jet/web/StartClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jet/edu/StartClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jet/web/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jet/web/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/applicationContext.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/classes/com/jet/edu/StartClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/classes/com/jet/web/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/classes/resources/applicationContext.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -162,27 +123,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartClass.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StartClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/StartClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="24" selection-end-column="57" />
+            <state relative-caret-position="85">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="98" selection-start-line="13" selection-start-column="98" selection-end-line="13" selection-end-column="98" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -231,9 +178,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jet/edu/StartClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jet/edu/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jet/web/StartClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jet/web/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jet/web/StartClass.java" />
       </list>
     </option>
   </component>
@@ -460,7 +407,7 @@
       <updated>1524756785662</updated>
       <workItem from="1524756786997" duration="1497000" />
       <workItem from="1524813461010" duration="21279000" />
-      <workItem from="1524900320017" duration="13327000" />
+      <workItem from="1524900320017" duration="14797000" />
     </task>
     <task id="LOCAL-00001" summary="HttpServlet demo">
       <created>1524757644983</created>
@@ -483,19 +430,25 @@
       <option name="project" value="LOCAL" />
       <updated>1524910968271</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="working browser driven BPM with Spring">
+      <created>1524918194396</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1524918194396</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36103000" />
+    <option name="totallyTimeSpent" value="37573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32995737" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" order="3" />
       <window_info id="Capture Tool" order="2" />
@@ -512,7 +465,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
@@ -575,7 +528,8 @@
     <MESSAGE value="HttpServlet demo" />
     <MESSAGE value="browser driven BPM" />
     <MESSAGE value="working browser driven BPM without Spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="working browser driven BPM without Spring" />
+    <MESSAGE value="working browser driven BPM with Spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="working browser driven BPM with Spring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -705,16 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/StartClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="24" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -724,12 +668,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="98" selection-start-line="13" selection-start-column="98" selection-end-line="13" selection-end-column="98" />
+        <state relative-caret-position="51">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/StartClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
           </folding>
         </state>
       </provider>
