@@ -1,7 +1,7 @@
 package com.jet.edu.OuterAPI;
 
-import java.util.HashMap;
+import java.util.Map;
 
 public interface DBWriter {
-    void start(HashMap users);
+    void start(Map users);
 }

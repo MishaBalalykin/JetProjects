@@ -2,7 +2,6 @@ package com.jet.edu.InnerAPI;
 
 import org.activiti.engine.delegate.DelegateExecution;
 import org.activiti.engine.delegate.JavaDelegate;
-
 import java.sql.*;
 import java.util.Map;
 
@@ -21,7 +20,7 @@ public class DBWriter implements JavaDelegate {
              PreparedStatement preparedStatement = connection.prepareStatement(INSERT_INTO)) {
             preparedStatement.setString(1, String.valueOf(users.get("name")));
             preparedStatement.setString(2, String.valueOf(users.get("surname")));
-            preparedStatement.setInt(3, (Integer) users.get("age"));
+            preparedStatement.setInt(3, 33/*(Integer) users.get("age")*/);
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
