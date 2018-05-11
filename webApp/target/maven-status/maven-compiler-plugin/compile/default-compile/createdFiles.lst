@@ -1,1 +1,4 @@
 com\jet\web\StartClass.class
+com\jet\web\ViewUsers.class
+com\jet\web\UserAdded.class
+com\jet\web\AddUser.class
