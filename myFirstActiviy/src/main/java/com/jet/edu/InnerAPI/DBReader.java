@@ -7,7 +7,7 @@ public class DBReader {
     private static final String USERNAME = "balalykin";
     private static final String PASSWORD = "balalykin";
 
-    private static void readFromOracleBD() throws ClassNotFoundException {
+    private void readFromOracleBD() throws ClassNotFoundException {
         Class.forName("oracle.jdbc.driver.OracleDriver");
         final String GET_ALL = "SELECT * FROM BALALYKIN.USERS";
 
@@ -29,13 +29,5 @@ public class DBReader {
         }
 
 
-    }
-
-    public static void main(String[] args) {
-        try {
-            readFromOracleBD();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
     }
 }
