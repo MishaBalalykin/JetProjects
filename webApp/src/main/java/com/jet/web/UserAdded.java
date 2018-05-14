@@ -1,6 +1,8 @@
 package com.jet.web;
 
 import com.jet.edu.OuterAPI.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -15,11 +17,13 @@ import java.util.Map;
 
 @WebServlet(urlPatterns = "/userAdded")
 public class UserAdded extends HttpServlet {
-    ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-    /*DBWriter dbWriter = (DBWriter) context.getBean("oracleWriter");*/
-    OracleWriter dbWriter = new OracleWriter();
+    /*ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+    DBWriter dbWriter = (DBWriter) context.getBean("oracleWriter");*/
 
-    //    OuterAPI outerAPI = new StandartAPI();
+   /* @Autowired
+    @Qualifier("oracleWriter")
+    DBWriter dbWriter;*/
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.getRequestDispatcher("UserAdded.jsp").forward(req, resp);
@@ -30,8 +34,6 @@ public class UserAdded extends HttpServlet {
         System.out.println(1);
         OracleWriter dbWriter = new OracleWriter();
         dbWriter.start(users);
-//        Test test = new Test();
-//        System.out.println(test.test());
         System.out.println(2);
     }
 }

@@ -17,8 +17,8 @@ import java.io.IOException;
 public class StartClass extends HttpServlet {
     String name;
     ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-    //OuterAPI start = (OuterAPI) context.getBean("api");
-    OuterAPI start = new StandartAPI();
+    OuterAPI start = (OuterAPI) context.getBean("api");
+    //OuterAPI start = new StandartAPI();
 
 
     @Override
