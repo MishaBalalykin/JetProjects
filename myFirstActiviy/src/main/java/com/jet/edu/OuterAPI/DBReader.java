@@ -1,5 +1,10 @@
 package com.jet.edu.OuterAPI;
 
+import com.jet.edu.InnerAPI.User;
+
+import java.util.List;
+import java.util.Map;
+
 public interface DBReader {
-    void readFromBD();
+    List<User> readFromBD();
 }

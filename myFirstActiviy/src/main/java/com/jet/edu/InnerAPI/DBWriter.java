@@ -20,7 +20,7 @@ public class DBWriter implements JavaDelegate {
              PreparedStatement preparedStatement = connection.prepareStatement(INSERT_INTO)) {
             preparedStatement.setString(1, String.valueOf(users.get("name")));
             preparedStatement.setString(2, String.valueOf(users.get("surname")));
-            preparedStatement.setInt(3, 33/*(Integer) users.get("age")*/);
+            preparedStatement.setInt(3, Integer.parseInt(users.get("age").toString()));
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();

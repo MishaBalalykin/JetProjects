@@ -1,33 +1,34 @@
 package com.jet.edu.InnerAPI;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class DBReader {
     private static final String URL = "jdbc:oracle:thin:@10.38.184.55:1521:myDatabase";
     private static final String USERNAME = "balalykin";
     private static final String PASSWORD = "balalykin";
 
-    private void readFromOracleBD() throws ClassNotFoundException {
+    public List<User> readFromOracleBD() throws ClassNotFoundException {
         Class.forName("oracle.jdbc.driver.OracleDriver");
+        List<User> users = new ArrayList<>();
         final String GET_ALL = "SELECT * FROM BALALYKIN.USERS";
-
         try (Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
              PreparedStatement preparedStatement = connection.prepareStatement(GET_ALL)) {
 
             ResultSet resultSet = preparedStatement.executeQuery();
-            while (resultSet.next()){
-                String firstName = resultSet.getString("FIRSTNAME");
-                String surName = resultSet.getString("SURNAME");
-                int age = resultSet.getInt("AGE");
 
-                System.out.println("firstName = " + firstName);
-                System.out.println("surName = " + surName);
-                System.out.println("age = " + age);
+            while (resultSet.next()) {
+                users.add(new User(resultSet.getString("FIRSTNAME"),
+                        resultSet.getString("SURNAME"), resultSet.getString("AGE")));
             }
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
 
-
+        return users;
     }
 }
