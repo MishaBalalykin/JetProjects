@@ -18,7 +18,7 @@ import java.util.Map;
 
 @WebServlet(urlPatterns = "/viewUsers")
 public class ViewUsers extends HttpServlet {
-    public List<User> users;
+    public static List<User> users;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -29,7 +29,6 @@ public class ViewUsers extends HttpServlet {
         System.out.println(users);
         System.out.println("i'm hear");
 
-//        req.setAttribute("users", users);
         req.setAttribute("users", users);
         req.getRequestDispatcher("ViewUser.jsp").forward(req, resp);
     }
