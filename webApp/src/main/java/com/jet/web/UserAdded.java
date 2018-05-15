@@ -17,12 +17,13 @@ import java.util.Map;
 
 @WebServlet(urlPatterns = "/userAdded")
 public class UserAdded extends HttpServlet {
-    /*ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-    DBWriter dbWriter = (DBWriter) context.getBean("oracleWriter");*/
+    private ApplicationContext context;
+    private DBWriter dbWriter;
 
-   /* @Autowired
-    @Qualifier("oracleWriter")
-    DBWriter dbWriter;*/
+    public UserAdded() {
+        context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        dbWriter = (DBWriter) context.getBean("oracleWriter");
+    }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -32,7 +33,6 @@ public class UserAdded extends HttpServlet {
         users.put("name", req.getParameter("name"));
         users.put("age", req.getParameter("age"));
         System.out.println(1);
-        OracleWriter dbWriter = new OracleWriter();
         dbWriter.start(users);
         System.out.println(2);
     }

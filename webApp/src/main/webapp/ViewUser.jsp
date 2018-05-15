@@ -13,7 +13,7 @@
         <th>Имя</th>
         <th>Возраст</th>
     </tr>
-    <c:forEach var="user" items="${ViewUsers.users}">
+    <c:forEach var="user" items="${ViewUsers.getUsers()}">
         <tr>
             <td><c:out value="${user.surname}"/></td>
             <td><c:out value="${user.name}"/></td>

@@ -4,6 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="oracleWriter" class="com.jet.edu.OuterAPI.OracleWriter"/>
+    <bean id="oracleReader" class="com.jet.edu.OuterAPI.OracleReader"/>
+    <bean id="api" class="com.jet.edu.OuterAPI.StandartAPI"/>
 
 
 </beans>
