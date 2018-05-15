@@ -1,12 +1,14 @@
 package com.jet.edu.OuterAPI;
 
 import com.jet.edu.InnerAPI.User;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Component
 public class OracleReader implements DBReader {
 
     @Override

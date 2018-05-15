@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import java.util.HashMap;
 import java.util.Map;
 
-@Component(value = "oracleWriter")
+@Component
 public class OracleWriter implements DBWriter {
     @Override
     public void start(Map users) {
