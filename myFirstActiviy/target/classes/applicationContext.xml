@@ -5,25 +5,23 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
     <!-- Configuration -->
-    <context:property-placeholder location="classpath*:log4j2.properties" />
+    <context:property-placeholder location="classpath*:log4j2.properties"/>
 
     <!-- Annotation based configuration -->
-    <context:annotation-config />
-    <context:component-scan base-package="com.jet.edu" />
+    <context:annotation-config/>
+    <context:component-scan base-package="com.jet.edu"/>
 
-
-    <!-- Data -->
-    <bean id="dataSource"
-          class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
-        <property name="driverClassName" value="org.h2.Driver"/>
-        <property name="url" value="jdbc:h2:mem:activiti;DB_CLOSE_DELAY=1000"/>
-        <property name="username" value="sa"/>
-        <property name="password" value=""/>
+    <!-- XML Bean Definitions -->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url" value="jdbc:oracle:thin:@10.38.184.55:1521:myDatabase"/>
+        <property name="username" value="balalykin"/>
+        <property name="password" value="balalykin"/>
     </bean>
 
     <bean id="transactionManager"
           class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="dataSource" />
+        <property name="dataSource" ref="dataSource"/>
     </bean>
     <tx:annotation-driven transaction-manager="transactionManager"/>
 
@@ -32,26 +30,26 @@
       Activiti
     -->
     <bean id="processEngineConfiguration" class="org.activiti.spring.SpringProcessEngineConfiguration">
-        <property name="databaseType" value="h2" />
-        <property name="dataSource" ref="dataSource" />
-        <property name="transactionManager" ref="transactionManager" />
-        <property name="databaseSchemaUpdate" value="true" />
-        <property name="jobExecutorActivate" value="false" />
-        <property name="deploymentResources" value="classpath*:/process/DBWriter.bpmn20.xml" />
+        <property name="databaseType" value="oracle"/>
+        <property name="dataSource" ref="dataSource"/>
+        <property name="transactionManager" ref="transactionManager"/>
+        <property name="databaseSchemaUpdate" value="true"/>
+        <property name="jobExecutorActivate" value="false"/>
+        <property name="deploymentResources" value="classpath*:/process/DBWriter.bpmn20.xml"/>
     </bean>
 
     <bean id="processEngine" class="org.activiti.spring.ProcessEngineFactoryBean">
-        <property name="processEngineConfiguration" ref="processEngineConfiguration" />
+        <property name="processEngineConfiguration" ref="processEngineConfiguration"/>
     </bean>
 
     <bean id="repositoryService" factory-bean="processEngine"
-          factory-method="getRepositoryService" />
+          factory-method="getRepositoryService"/>
     <bean id="runtimeService" factory-bean="processEngine"
-          factory-method="getRuntimeService" />
+          factory-method="getRuntimeService"/>
     <bean id="taskService" factory-bean="processEngine"
-          factory-method="getTaskService" />
+          factory-method="getTaskService"/>
     <bean id="historyService" factory-bean="processEngine"
-          factory-method="getHistoryService" />
+          factory-method="getHistoryService"/>
     <bean id="managementService" factory-bean="processEngine"
-          factory-method="getManagementService" />
+          factory-method="getManagementService"/>
 </beans>

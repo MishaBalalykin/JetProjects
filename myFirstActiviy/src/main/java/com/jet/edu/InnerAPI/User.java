@@ -1,11 +1,11 @@
 package com.jet.edu.InnerAPI;
 
 public class User {
-    String name;
-    String surname;
-    String age;
+    private String name;
+    private String surname;
+    private String age;
 
-    public User(String name, String surname, String age) {
+    User(String name, String surname, String age) {
         this.name = name;
         this.surname = surname;
         this.age = age;
