@@ -1,8 +1,6 @@
 package com.jet.web;
 
 import com.jet.edu.OuterAPI.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -32,8 +30,6 @@ public class UserAdded extends HttpServlet {
         users.put("surname", req.getParameter("surname"));
         users.put("name", req.getParameter("name"));
         users.put("age", req.getParameter("age"));
-        System.out.println(1);
         dbWriter.start(users);
-        System.out.println(2);
     }
 }

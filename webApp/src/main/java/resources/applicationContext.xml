@@ -5,7 +5,7 @@
 
     <bean id="oracleWriter" class="com.jet.edu.OuterAPI.OracleWriter"/>
     <bean id="oracleReader" class="com.jet.edu.OuterAPI.OracleReader"/>
-    <bean id="api" class="com.jet.edu.OuterAPI.StandartAPI"/>
+
 
 
 </beans>

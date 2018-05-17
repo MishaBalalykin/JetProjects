@@ -73,8 +73,20 @@
       <change beforePath="$PROJECT_DIR$/../moneyTransaction/target/test-classes/TransactionTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../multythreadDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../multythreadDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myFirstActiviy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstActiviy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/InnerAPI/DBReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/InnerAPI/DBReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/InnerAPI/DBWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/InnerAPI/DBWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/InnerAPI/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/InnerAPI/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/OuterAPI/DBReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/OuterAPI/DBReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/OuterAPI/OracleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/OuterAPI/OracleReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/OuterAPI/OracleWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/OuterAPI/OracleWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/OuterAPI/OuterAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/OuterAPI/StandartAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstActiviy/src/main/java/com/jet/edu/OuterAPI/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstActiviy/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myFirstActiviy/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstActiviy/src/main/resources/process/TestDiagramm.bpmn20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstActiviy/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstActiviy/target/classes/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myFirstActiviy/target/classes/process/TestDiagramm.bpmn20.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../parking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parking/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../perking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../perking/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../perking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../perking/pom.xml" afterDir="false" />
@@ -98,14 +110,51 @@
       <change beforePath="$PROJECT_DIR$/../tetsService/servicetst/target/classes/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tetsService/servicetst/target/classes/Parser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tetsService/servicetst/target/classes/ServiceRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../tetsService/servicetst/target/classes/ServiceRequest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jet/web/AddUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jet/web/AddUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jet/web/StartClass.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jet/web/UserAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jet/web/UserAdded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jet/web/View.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jet/web/ViewUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jet/web/ViewUsers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ViewUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ViewUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/UserAdded.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/UserAdded.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/webForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jet/web/StartClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/endorsed/javaee-endorsed-api-7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/classes/com/jet/web/StartClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/activiti-bpmn-converter-5.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/activiti-bpmn-model-5.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/activiti-engine-5.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/activiti-spring-5.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/commons-email-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/commons-pool-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/h2-1.2.132.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/joda-time-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/mail-1.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/myFirstActiviy-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-3.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-3.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-3.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webApp-1.0-SNAPSHOT/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/testOracle/testOracle.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -133,20 +182,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="170">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OracleWriter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/jet/edu/myFirstActiviy/1.0-SNAPSHOT/myFirstActiviy-1.0-SNAPSHOT.jar!/com/jet/edu/OuterAPI/OracleWriter.class">
+      <file leaf-file-name="AddUser.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/AddUser.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAdded.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/UserAdded.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -154,20 +221,11 @@
       <file leaf-file-name="ViewUsers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/ViewUsers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="357">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -175,38 +233,26 @@
       <file leaf-file-name="ViewUser.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/ViewUser.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+            <state relative-caret-position="187">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBReader.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/jet/edu/myFirstActiviy/1.0-SNAPSHOT/myFirstActiviy-1.0-SNAPSHOT.jar!/com/jet/edu/OuterAPI/DBReader.class">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="1255">
+              <caret line="80" column="31" selection-end-line="259" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/StartClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="49" column="226" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="226" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddUser.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddUser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/AddUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -217,17 +263,11 @@
       <file leaf-file-name="UserAdded.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/UserAdded.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBWriter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/jet/edu/myFirstActiviy/1.0-SNAPSHOT/myFirstActiviy-1.0-SNAPSHOT.jar!/com/jet/edu/OuterAPI/DBWriter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="76">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -277,17 +317,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jet/web/StartForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jet/web/addUser.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/UserAdded.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/AddUser.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/log4j2.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jet/web/StartClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jet/web/AddUser.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jet/web/View.java" />
-        <option value="$PROJECT_DIR$/src/main/java/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/ViewUser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jet/web/AddUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jet/web/StartClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jet/web/UserAdded.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jet/web/ViewUsers.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/UserAdded.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -339,7 +379,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -388,19 +430,21 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myFirstActiviy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -660,7 +704,8 @@
       <workItem from="1526370722580" duration="1711000" />
       <workItem from="1526373701691" duration="1773000" />
       <workItem from="1526375532421" duration="11000" />
-      <workItem from="1526375795777" duration="908000" />
+      <workItem from="1526375795777" duration="5532000" />
+      <workItem from="1526558946553" duration="2434000" />
     </task>
     <task id="LOCAL-00001" summary="HttpServlet demo">
       <created>1524757644983</created>
@@ -718,11 +763,25 @@
       <option name="project" value="LOCAL" />
       <updated>1526371074547</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="write and read from bd, with display on jsp page with spring">
+      <created>1526376820357</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1526376820357</updated>
+    </task>
+    <task id="LOCAL-00010" summary="write and read from bd, with display on jsp page with spring">
+      <created>1526379508091</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1526379508091</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97135000" />
+    <option name="totallyTimeSpent" value="104193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -748,8 +807,8 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.4019608" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
@@ -817,30 +876,11 @@
     <MESSAGE value="no writing to bd with client pages" />
     <MESSAGE value="write and read from bd? without display on jsp page" />
     <MESSAGE value="write and read from bd, with display on jsp page without spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="write and read from bd, with display on jsp page without spring" />
+    <MESSAGE value="write and read from bd, with display on jsp page with spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="write and read from bd, with display on jsp page with spring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jet/web/ViewUsers.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jet/web/ViewUsers.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jet/web/ViewUsers.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="10" />
     </breakpoint-manager>
   </component>
@@ -1004,6 +1044,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/View.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jet/edu/myFirstActiviy/1.0-SNAPSHOT/myFirstActiviy-1.0-SNAPSHOT.jar!/com/jet/edu/OuterAPI/DBReader.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jet/edu/myFirstActiviy/1.0-SNAPSHOT/myFirstActiviy-1.0-SNAPSHOT.jar!/com/jet/edu/OuterAPI/OracleReader.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jet/edu/myFirstActiviy/1.0-SNAPSHOT/myFirstActiviy-1.0-SNAPSHOT.jar!/com/jet/edu/OuterAPI/DBWriter.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jet/edu/myFirstActiviy/1.0-SNAPSHOT/myFirstActiviy-1.0-SNAPSHOT.jar!/com/jet/edu/OuterAPI/OracleWriter.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/StartClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="226" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/webForm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1011,18 +1066,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/View.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/UserAdded.jsp">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="1255">
+          <caret line="80" column="31" selection-end-line="259" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/AddUser.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ViewUser.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="187">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/UserAdded.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -1033,48 +1094,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/ViewUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/StartClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="49" column="226" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="226" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jet/edu/myFirstActiviy/1.0-SNAPSHOT/myFirstActiviy-1.0-SNAPSHOT.jar!/com/jet/edu/OuterAPI/DBReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jet/edu/myFirstActiviy/1.0-SNAPSHOT/myFirstActiviy-1.0-SNAPSHOT.jar!/com/jet/edu/OuterAPI/OracleReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/AddUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/AddUser.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/ViewUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1083,39 +1120,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/UserAdded.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jet/edu/myFirstActiviy/1.0-SNAPSHOT/myFirstActiviy-1.0-SNAPSHOT.jar!/com/jet/edu/OuterAPI/DBWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jet/edu/myFirstActiviy/1.0-SNAPSHOT/myFirstActiviy-1.0-SNAPSHOT.jar!/com/jet/edu/OuterAPI/OracleWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/ViewUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="76">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jet/web/AddUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

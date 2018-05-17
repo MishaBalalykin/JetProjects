@@ -2,7 +2,6 @@ package com.jet.web;
 
 import com.jet.edu.InnerAPI.User;
 import com.jet.edu.OuterAPI.DBReader;
-import com.jet.edu.OuterAPI.OracleReader;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import javax.servlet.ServletException;
@@ -30,13 +29,8 @@ public class ViewUsers extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        System.out.println("i'm hear");
         //DBReader dbReader = new OracleReader();
         users = dbReader.readFromBD();
-        System.out.println(users);
-        System.out.println("i'm hear");
-
         req.setAttribute("users", users);
         req.getRequestDispatcher("ViewUser.jsp").forward(req, resp);
     }
