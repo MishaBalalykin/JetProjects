@@ -11,6 +11,7 @@
     <context:annotation-config/>
     <context:component-scan base-package="com.jet.edu"/>
 
+
     <!-- XML Bean Definitions -->
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
@@ -52,4 +53,9 @@
           factory-method="getHistoryService"/>
     <bean id="managementService" factory-bean="processEngine"
           factory-method="getManagementService"/>
+
+    <bean id="oracleRemover" class="com.jet.edu.impl.OracleRemover"/>
+    <bean id="oracleReader" class="com.jet.edu.impl.OracleReader"/>
+    <bean id="oracleWriter" class="com.jet.edu.impl.OracleWriter"/>
+    <bean id="bpmnWriter" class="com.jet.edu.impl.BpmnWriter"/>
 </beans>
