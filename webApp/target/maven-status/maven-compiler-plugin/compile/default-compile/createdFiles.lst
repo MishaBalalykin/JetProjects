@@ -1,3 +1,4 @@
-com\jet\web\UserAdded.class
-com\jet\web\AddUser.class
-com\jet\web\ViewUsers.class
+com\jet\web\servlets\UserAdded.class
+com\jet\web\servlets\AddUser.class
+com\jet\web\servlets\RemoveAllUsers.class
+com\jet\web\servlets\ViewUsers.class
